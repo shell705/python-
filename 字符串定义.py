@@ -1,0 +1,12 @@
+#单/双/三引号定义法
+name='乌鲁鲁'
+print(type(name))
+name="乌鲁鲁"
+print(type(name))
+name='''乌鲁鲁'''
+print(type(name))
+#字符串内包含引号
+name="'乌鲁鲁'"
+print(name)
+name="\"乌鲁鲁\""
+print(name)

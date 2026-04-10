@@ -1,0 +1,15 @@
+#法1
+print("你是谁？")
+name=input()
+print("我是%s"%name)
+#法2
+name=input("你是谁?")
+print("我是%s"%name)
+num=input("密码是：")
+#input默认类型是字符串
+num=int(num)
+print("密码的数据类型是",type(num))
+#作业：
+user_name=input("您好：")
+user_type=input("您是尊贵的:")
+print(user_name,user_type,"用户，欢迎您的光临")

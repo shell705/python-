@@ -1,0 +1,9 @@
+S="我"
+C="是"
+O="奶龙"
+sentence=S+C+O
+print(sentence)
+#同类拼接
+tel="19907003980"
+sentence="我的电话是"+tel
+print(sentence)
